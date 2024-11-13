@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website layout with image gallery</title>
+<style>
+    *{
+        box-sizing:boarder-box;
+    }
+    body{
+        margin:0;
+        background:rgb(13, 129, 207)
+    }
+    nav{
+        background-color: aliceblue;
+        width: 100%;
+        overflow:auto;
+    }
+    ul{
+        margin:0;
+        padding: 0;
+        list-style: none;
+        
+    }
+    li{
+        float:left;
+    }
+    nav a{
+        width:120px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background: rgb(0, 0, 0);
+        font-size: larger20px;
+        color: whitesmoke;
+        padding: 20px 10px;
+        font-family: Arial;
+    }
+    nav ul li a:hover{
+        color: rgb(0, 0, 0);
+    }
+    nav a:hover{
+        background: skyblue;
+        
+    }
+    .container{
+        max-width: 1200px;
+        margin:auto;
+        background: #17b8e9;
+        background-image: linear-gradient(to right,black,white);
+        overflow: auto;
+
+    }
+    .gallery{
+        margin:5px;
+        border:1px solid #ccc;
+        float:left;
+        width: 300px;
+    }
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+footer{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    background: none;
+    color: white;
+    font-family: arial;
+    letter-spacing: 1px;
+}
+.gallery img:hover{
+    opacity: .5;
+}
+
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">News</a></li>
+             <li><a href="#">Download</a></li>
+             <li><a href="#">Gallerr</a></li>
+             <li><a href="#">Contact</a></li>
+             <li><a href="#">About</a></li>
+        </ul>
+
+
+    </nav>
+    <div class ="container">
+    <div class="gallery">
+        <img src="c:\Users\USER\Pictures\ccccc.jfif" alt="">
+        <div class="desc">Add a descciption of image here</div>
+    </div>
+    <div class="gallery">
+        <img src="c:\Users\USER\Pictures\bb.jfif" alt="">
+        <div class="desc">Add a descciption of image here</div>
+    </div>
+    <div class="gallery">
+        <img src="c:\Users\USER\Pictures\ccc.jfif" alt="">
+        <div class="desc">Add a descciption of image here</div>
+    </div>
+
+    <div class="gallery">
+        <img src="c:\Users\USER\Pictures\aaa.jfif" alt="">
+        <div class="desc">Add a descciption of image here</div>
+    </div>
+    <div class="gallery">
+        <img src="c:\Users\USER\Pictures\bbb.jfif" alt="">
+        <div class="desc">Add a descciption of image here</div> 
+    <img src="c:\Users\USER\Pictures\bbbb.jfif" alt="">
+    <div class="desc">Add a descciption of image here</div>
+</div>
+<footer>
+    All Reserved Web Master
+</footer>
+</body>
+</html>    
